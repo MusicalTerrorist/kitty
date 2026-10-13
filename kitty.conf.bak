@@ -5,11 +5,10 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-
-# font_family      monospace
-# bold_font        auto
-# italic_font      auto
-# bold_italic_font auto
+ font_family      JetBrainsMono
+ bold_font        auto
+ italic_font      auto
+ bold_italic_font auto
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. The easiest way to select fonts is to run the `kitten
@@ -20,7 +19,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-# font_size 11.0
+ font_size 11.0
 
 #: Font size (in pts).
 
@@ -1232,16 +1231,13 @@
 #: only at the bottom and right edges. The value can be one of: top-
 #: left, top, top-right, left, center, right, bottom-left, bottom,
 #: bottom-right.
-
 # active_border_color #00ff00
 
 #: The color for the border of the active window. Set this to none to
 #: not draw borders around the active window.
-
 # inactive_border_color #cccccc
 
 #: The color for the border of inactive windows.
-
 # bell_border_color #ff5a00
 
 #: The color for the border of inactive windows in which a bell has
@@ -1261,7 +1257,7 @@
 #: Window focus and this feature to indicate which kitty window is
 #: active insidethe OS Window.
 
-# hide_window_decorations no
+ hide_window_decorations yes
 
 #: Hide the window decorations (title-bar and window borders) with
 #: yes. On macOS, titlebar-only and titlebar-and-corners can be used
@@ -1446,7 +1442,7 @@
 #: The second number is the margin between the tab bar and the
 #: contents of the current tab.
 
-# tab_bar_style fade
+ tab_bar_style powerline
 
 #: The tab bar style, can be one of:
 
@@ -1527,7 +1523,7 @@
 #: The separator between tabs in the tab bar when using separator as
 #: the tab_bar_style.
 
-# tab_powerline_style angled
+ tab_powerline_style slanted
 
 #: The powerline separator style between tabs in the tab bar when
 #: using powerline as the tab_bar_style, can be one of: angled,
@@ -1644,7 +1640,7 @@
 
 #: The foreground and background colors.
 
- background_opacity 0.5
+ background_opacity 0.8
 
 #: The opacity of the terminal background color. A number between zero
 #: and one, where one is opaque and zero is fully transparent. This
@@ -3265,6 +3261,10 @@
 
 
 # BEGIN_KITTY_THEME
-# Liquid Carbon Transparent Inverse
+# PaperColor Dark
 include current-theme.conf
 # END_KITTY_THEME
+
+
+
+
